@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: #66FCF1;
+    
+    
+    
+}
+.main {
+   
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    gap: 10px;
+}
+
+.brandname {
+    font-size: 24px;
+    padding: 5px;
+}
+
+.biggercontainer1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 100px 70px 100px ;
+    /* height: 600px; */
+    
+    
+    
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 12px;
+    gap: 10px;
+    
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.topcat img {
+    width: auto;
+    height: 200px;
+    padding-top: 10px;
+    justify-content: right;
+    
+}
+
+.image {
+    
+}
+
+
+
+.subtext {
+    width: 200px;
+}
+
+.ultracontainer {
+    background-color: #1A1A1D;
+    padding-left: 70px; 
+    padding-right: 200px; 
+    
+}
+
+a {
+    text-decoration: none;
+    color: #66FCF1;
+}
+
+.right-links {
+    display: flex;
+    gap: 20px;
+    padding-top: 5px;
+}
+
+.slogan {
+    font-weight: 600;
+    font-size: 48px;
+}
+
+button {
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background-color: aqua;
+}
+
+.text {
+    padding-bottom: 10px;
+}
+
+.biggercontainer2 {
+    background-color: #1F2833;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+   
+    padding-left: 40px;
+    padding-right: 40px;
+
+    
+}
+
+.infohead {
+    text-align: center;
+    font-size: x-large;
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    
+}
+
+.images {
+    display: flex;
+    
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.actualinfo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.ultracontainer2 {
+    background-color: #e5e7eb;
+}
+
+.biggercontainer3 {
+    
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding: 70px;
+    font-size: xx-large;
+    color: #1A1A1D;
+   
+    
+}
+
+.author {
+    font-weight: bold;
+    text-align: end;
+}
+
+.cta {
+    margin: 50px;
+    background-color: #1F2833;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+
+    
+    border-radius: 8px;
+    gap: 10px;
+}
+
+.cta-container {
+    display: flex;
+
+}
+
+.cta-title {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.footer {
+    background-color:#1F2937;
+    text-align: center;
+    padding: 10px;
+}
