@@ -15,9 +15,7 @@ body {
     
     
 }
-.main {
-   
-}
+
 
 header {
     display: flex;
@@ -36,6 +34,7 @@ header {
     justify-content: space-between;
     padding: 70px 100px 70px 100px ;
     /* height: 600px; */
+    gap: 20px;
     
     
     
@@ -61,11 +60,10 @@ img {
     padding-top: 10px;
     justify-content: right;
     
-}
-
-.image {
     
 }
+
+
 
 
 
